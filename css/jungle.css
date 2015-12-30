@@ -3,6 +3,11 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+@font-face {
+    font-family: 'JungleFever';
+    src: url(../fonts/JungleFeverNF.ttf);
+    font-weight: normal;
+}
 
 body {
     width: 100%;
@@ -66,7 +71,7 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #000;
+    background-color: #90A860;
 }
 
 .navbar-custom .navbar-brand {
@@ -136,51 +141,69 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #000;
+        /* collapsed navigation background */
+        background: rgba(50, 83, 32, 0.9);
     }
 }
 
-.intro {
+.info {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding: 0 0;
     text-align: center;
+    background-image: url(../img/bg.jpg);
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: #000;
+    background-color: #90A860;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
-.intro .intro-body {
+.colored-layer {
+    background-color: rgba(77, 38, 0, 0.5);
+}
+
+.info .info-body {
     display: table-cell;
     vertical-align: middle;
 }
 
-.intro .intro-body .brand-heading {
+.info .info-body .brand-heading {
     font-size: 40px;
 }
 
-.intro .intro-body .intro-text {
+.info .info-body .info-text {
     font-size: 18px;
 }
 
 @media(min-width:768px) {
-    .intro {
+    .info {
         height: 100%;
         padding: 0;
     }
 
-    .intro .intro-body .brand-heading {
+    .info .info-body .brand-heading {
         font-size: 100px;
     }
 
-    .intro .intro-body .intro-text {
+    .info .info-body .info-text {
         font-size: 26px;
     }
+}
+
+.btn-facebook {
+    color: 	#3b5998;
+}
+
+.btn-facebook:hover {
+    color: 	#8b9dc3;
+}
+
+#date {
+    font-family: JungleFever;
+    margin-top: 20px;
 }
 
 .btn-circle {
@@ -351,13 +374,13 @@ footer p {
 ::-moz-selection {
     text-shadow: none;
     background: #fcfcfc;
-    background: rgba(255,255,255,.2);
+    background: rgba(0,0,0,.2);
 }
 
 ::selection {
     text-shadow: none;
     background: #fcfcfc;
-    background: rgba(255,255,255,.2);
+    background: rgba(0,0,0,.2);
 }
 
 img::selection {
@@ -371,3 +394,4 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
