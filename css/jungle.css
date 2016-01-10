@@ -67,11 +67,12 @@ a:focus {
 }
 
 .navbar-custom {
+    
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #90A860;
+    background-color: rgba(50, 83, 32, 0.9);
 }
 
 .navbar-custom .navbar-brand {
@@ -162,10 +163,10 @@ a:focus {
 }
 
 .colored-layer {
-    background-color: rgba(77, 38, 0, 0.5);
+    background-color: rgba(77, 38, 0, 0.3);
 }
 
-.info .info-body {
+.info .colored-layer {
     display: table-cell;
     vertical-align: middle;
 }
@@ -205,6 +206,14 @@ a:focus {
     font-family: JungleFever;
     margin-top: 20px;
 }
+
+/* for mobile devices */
+@media(max-width:768px) {
+    #jungle-banner {
+        margin-top: 100px;
+    }
+}
+
 
 .btn-circle {
     width: 70px;
