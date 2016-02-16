@@ -295,8 +295,12 @@ a:focus {
 
 .palm-img {
     display: block;
-    width: 100%;
+    width: 350px;
     height: auto;
+}
+
+.vvk {
+    font-size: 1.5em;
 }
 
 .download-section {
