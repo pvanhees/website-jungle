@@ -72,7 +72,7 @@
     <header class="info">
         <div class="colored-layer">
         <div class="info-body">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <img src="img/Banner-Web.png" id="jungle-banner" class="img-responsive banner-img">
@@ -127,20 +127,21 @@
     </header>
 
     <!-- About Section -->
-    <section id="infosection" class="container content-section ">
+    <section id="infosection" class="container-fluid content-section ">
         <div class="row">
-            <div class="col-md-7">
-                <h1>Voorverkoop 4€</h1>
-                <div class="vvk">
+            <div class="col-md-8">
+                <h2>Voorverkoop 4€</h2>
+                <div class="info-text">
                   <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-5">
                       <div>Chiro Wezel</div>
                       <div>Fietsen Loma (Wezel)</div>
                       <div>Enjoy (Wezel)</div>
                       <div>PC De Grot (Wezel)</div>
                       <div>Kiezel (Wezel)</div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-6">
                       <div>Cubana (Rauw)</div>
                       <div>De Perel (Mol)</div>
                       <div>Panini (Mol)</div>
@@ -150,16 +151,32 @@
                   </div>
                 </div>
             </div>
-            <div class="col-md-4" >
+            <div class="col-md-2" >
               <img class="palm-img" src="img/palm.svg"/>
             </div>
         </div>
-        <div class="row" > 
-          <div class="col-md-4" >
+        <div class="drank row"> 
+            <div class="col-md-2" >
+              <img class="palm-img" src="img/palm.svg"/>
+            </div>
+          <div class="col-md-5" >
           </div>
-          <div class="col-md-8">
-                <h2 style="text-align: right;">Drank</h2>
-                <p style="text-align: right;">Caiperinha</p>
+          <div class="col-md-5">
+              <h2>Drank</h2>
+              <div class="info-text row">
+                  <div class="col-md-6">
+                      <div>Surprise cocktail</div>
+                      <div>Mojito</div>
+                      <div>Passoa</div>
+                      <div>Caiphirinia</div>
+                  </div>
+                  <div class="col-md-6">
+                      <div>Cosmopolitan</div>
+                      <div>5 soorten jenevers</div>
+                      <div>WKD Blue &amp; WKD Red</div>
+                      <div>Wodka-Redbull</div>
+                  </div>
+              </div>
           </div>
         </div>
     </section>
@@ -172,6 +189,18 @@
                     <h2>Download Grayscale</h2>
                     <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
                     <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                    <div id="map"></div>
+<script>
+        function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+          center: {lat: 51.1961343 lng: 5.2285748}, zoom: 16.5
+        });
+</script>
+                         <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+         async defer></script>
+
+
                 </div>
             </div>
         </div>

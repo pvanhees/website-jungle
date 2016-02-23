@@ -175,7 +175,7 @@ a:focus {
     font-size: 40px;
 }
 
-.info .info-body .info-text {
+.info .info-body {
     font-size: 18px;
 }
 
@@ -189,7 +189,7 @@ a:focus {
         font-size: 100px;
     }
 
-    .info .info-body .info-text {
+    .info .info-body {
         font-size: 26px;
     }
 }
@@ -295,12 +295,19 @@ a:focus {
 
 .palm-img {
     display: block;
-    width: 350px;
+    width: 250px;
     height: auto;
 }
 
-.vvk {
-    font-size: 1.5em;
+#infosection {
+    font-size: 20px;
+    color:#004B69;
+    background-color: aliceblue;
+}
+
+.drank {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .download-section {
