@@ -67,7 +67,7 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: rgba(50, 83, 32, 1);
+    background: rgba(0, 90, 150, 0.9);
 }
 
 .navbar-custom .navbar-brand {
@@ -149,7 +149,7 @@ a:focus {
     padding: 0 0;
     text-align: center;
     background-image: url(../img/bg.jpg);
-    color: #fff;
+    color: white;
     background-color: #90A860;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -189,6 +189,10 @@ a:focus {
     }
 }
 
+.info .caption {
+  color: #004B69;
+}
+
 .btn-facebook {
     color: 	#3b5998;
 }
@@ -209,6 +213,9 @@ a:focus {
     }
 }
 
+#jungle-banner {
+    margin-top: 100px;
+}
 .thumbnail img {
   width: 300px;
   height: 225px;
@@ -296,7 +303,7 @@ a:focus {
 
 #infosection {
     font-size: 17px;
-    color: white;
+    color: #004B69;
 }
 
 #info-separator {
@@ -319,8 +326,9 @@ a:focus {
     -o-background-size: cover;
 }
 .content-section {
-    padding-top: 0px;
+    padding-top: 50px;
     color: #004B69;
+    background-color: white;
 }
 #map {
     width: 100%;
@@ -328,14 +336,6 @@ a:focus {
 }
 
 @media(min-width:767px) {
-    .content-section {
-        padding-top: 50px;
-    }
-
-    .download-section {
-        padding: 100px 0;
-    }
-
     #map {
         height: 400px;
     }
@@ -409,7 +409,7 @@ ul.banner-social-buttons {
 footer {
     padding: 10px 0;
     color: white;
-    background-color: rgba(0, 90, 150, 0.9);
+    background-color: #004B69;
 }
 
 footer p {
