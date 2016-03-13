@@ -351,6 +351,11 @@ a:focus {
     text-align: left;
 }
 
+.ism {
+    margin-top: -35px;
+    margin-bottom: 20px;
+}
+
 #sponsors {
     padding: 50px 0px;
     background-color: white;
